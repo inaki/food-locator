@@ -1,0 +1,84 @@
+body {
+  background: linear-gradient(
+    rgba(255,255,255,0.7),
+    rgba(255,255,255,0.7)
+    ),
+    url('../images/patternWhite.png');
+    font-family: 'Lato', sans-serif;
+  }
+
+  .header {
+    background: linear-gradient(
+      rgba(150, 158, 219, 0.8),
+      rgba(150, 158, 219, 1)
+      ),
+      url('../images/patternGreen.png');
+    height: 400px;
+    width: 100%;
+  }
+
+  .phone {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+
+  }
+
+  .phone img {
+    margin-top: 0px;
+    width: 255px;
+    height: 519px;
+  }
+
+  img.sms-movie {
+    top: 153px;
+    width: 223px;
+    height: 420px;
+  }
+  .sms-movie {
+    position: absolute;
+    margin-left: -240px;
+    top: 65px;
+  }
+  .phone h1 {
+    color: white;
+    padding-bottom: 10px;
+    font-size: 40px;
+  }
+
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
