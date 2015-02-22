@@ -3,7 +3,7 @@ body {
     rgba(255,255,255,0.7),
     rgba(255,255,255,0.7)
     ),
-    url('../images/patternWhite.png');
+    url('../images/balance-pattern.png');
     font-family: 'Lato', sans-serif;
   }
 
@@ -12,7 +12,7 @@ body {
       rgba(150, 158, 219, 0.8),
       rgba(150, 158, 219, 1)
       ),
-      url('../images/patternGreen.png');
+      url('../images/balance-pattern.gif');
     height: 400px;
     width: 100%;
   }
